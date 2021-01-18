@@ -43,8 +43,13 @@ highly scalable security platforms for embedded telecommunications systems.
 
 ## Experience
 
+**Dräeger Medicatl Systems.**
+**Senior Staff Software Engineer, Andover, MA: May, 2020 - Present**
+
+Worked on Dräger's Patient Monitoring systems...
+
 **Parallel Wireless Inc.**
-**Principal Software Engineer, Nashua, NH: November 2013 - Present**
+**Principal Software Engineer, Nashua, NH: November, 2013 - May, 2020**
 
 Worked doing awesome stuff…
 
