@@ -39,7 +39,13 @@ highly scalable security platforms for embedded telecommunications systems.
 * **Operating Systems:** FreeBSD, NetBSD, OpenBSD, Linux, Solaris
 * **Platforms:** Atlassian, Bitbucket, GitHub
 * **Tools:** CLang (LLVM), GNU Tool Chain, BitKeeper, Git, SVN, Shell
-  Scripting, UN*X Command Line Tool Suite
+  Scripting, UN\*X Command Line Tool Suite
+
+## Patents
+
+* [**_Multi-Stage Secure Network Element Certificate Provisioning in a Distributed Mobile Access Network_ US20180205722A1**] (https://patents.google.com/patent/US20180205722A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
+
+* [**_Secure Software Update in a Wireless Mesh Radio Network Using Peer-to-Peer File Sharing_ US20200162892A1**] (https://patents.google.com/patent/US20200162892A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
 
 ## Experience
 
