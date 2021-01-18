@@ -46,12 +46,12 @@ highly scalable security platforms for embedded telecommunications systems.
 **Dräeger Medicatl Systems.**
 **Senior Staff Software Engineer, Andover, MA: May, 2020 - Present**
 
-Worked on Dräger's Patient Monitoring systems...
+_Worked on Dräger's Patient Monitoring systems..._
 
 **Parallel Wireless Inc.**
 **Principal Software Engineer, Nashua, NH: November, 2013 - May, 2020**
 
-Worked doing awesome stuff…
+_Worked doing awesome stuff…_
 
 * Architect for design and implementation of Radio Access Network
   Mesh IPsec 3GPP compliant IPsec infrastructure for 3G and 4G networks;
@@ -65,7 +65,7 @@ Worked doing awesome stuff…
 **Starent Networks / Cisco Systems**
 **Principal Software Engineer, Tewksbury, MA: July 2006 - October 2013**
 
-Worked doing awesome stuff…
+_Worked doing awesome stuff…_
 
 * Lead software engineer for development of embedded security platforms for
   3G CDMA, UMTS and 4G LTE ASR5000 family of Mobile Internet infrastructure
@@ -92,7 +92,7 @@ Worked doing awesome stuff…
 **Senior Software Engineer**
 **Lowell, MA: February 2002 - July 2006**
 
-Worked doing awesome stuff…
+_Worked doing awesome stuff…_
 
 * Lead software architect/developer for multiple UN*X appliance/server
   based security products for a customer base of over 500 installations;
@@ -115,7 +115,7 @@ Worked doing awesome stuff…
 **Senior Software Engineer**
 **Nashua, NH: February 2001 - June 2001**
 
-Worked doing awesome stuff…
+_Worked doing awesome stuff…_
 
 * Lead developer for racoon based FreeBSD IKE/IPsec wireless router
   appliance for replacement of the New Hampshire National Guard's
@@ -131,7 +131,7 @@ Worked doing awesome stuff…
 **Senior Software Engineer**
 **Andover, MA: May 2000 - February 2001, July 2001 - December 2001**
 
-Worked doing awesome stuff…
+_Worked doing awesome stuff…_
 
 * Architected, implemented and rolled out approximately 70 FreeBSD-4.x
   Intel architecture servers to support enterprise network
