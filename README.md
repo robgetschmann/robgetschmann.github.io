@@ -43,9 +43,9 @@ highly scalable security platforms for embedded telecommunications systems.
 
 ## Patents
 
-* [**_Multi-Stage Secure Network Element Certificate Provisioning in a Distributed Mobile Access Network_ US20180205722A1**] (https://patents.google.com/patent/US20180205722A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
+* [**_Multi-Stage Secure Network Element Certificate Provisioning in a Distributed Mobile Access Network_ US20180205722A1**](https://patents.google.com/patent/US20180205722A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
 
-* [**_Secure Software Update in a Wireless Mesh Radio Network Using Peer-to-Peer File Sharing_ US20200162892A1**] (https://patents.google.com/patent/US20200162892A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
+* [**_Secure Software Update in a Wireless Mesh Radio Network Using Peer-to-Peer File Sharing_ US20200162892A1**](https://patents.google.com/patent/US20200162892A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
 
 ## Experience
 
