@@ -1,165 +1,81 @@
 # Robert A. Getschmann
 
-## Contact Information
+Software Engineer / Team Lead
 
-* [***E-Mail:*** _rob@getschmann.net_](mailto:rob@getschmann.net)
-* [***GitHub:*** _http://github.com/robgetschmann_](http://github.com/robgetschmann)
-* [***LinkedIn:*** _http://linked.com/in/robgetschmann_](http://linkedin.com/in/robgetschmann)
+<rob@getschmann.net> • +1.603.930.0918 • [github.com/robgetschmann](https://github.com/robgetschmann) • [linkedin.com/in/robgetschmann](https://www.linkedin.com/in/robgetschmann/)
 
-## Professional Summary
+## SYNOPSIS
 
-Software professional with over ten years experience in development of
-highly scalable security platforms for embedded telecommunications systems.
+I am a software engineer and technical lead with over twenty-five years of experience building carrier grade telecommunications and networking systems, spanning Mobile Core and Radio Access Network infrastructure, and network security products.  I have architected, implemented, and delivered highly scalable, standards compliant systems for tier 1 carriers and enterprise customers.  I am comfortable across the full depth of the stack, from hardware and device drivers through protocol stacks and network services.
 
-## Education
+## EXPERIENCE
 
-### Master of Science, Computer Science; Rochester Institute of Technology
+### Dräger Medical Systems
 
-* **Thesis:** [_Enumeration of Small Triangle Free Ramsey Graphs_](http://scholarworks.rit.edu/theses/328/),
-  (under [Stanisław Radziszowski](http://www.cs.rit.edu/~spr/))
-* **Concentrations:** Computational Theory, Combinatorics, Neural Networks,
-  and Object-Oriented Systems
+**Senior Staff Software Engineer / Lead** — Andover, MA (May 2020-Present)
 
-### Bachelor of Science, Computer Science; Rochester Institute of Technology
+- I am the technical lead for Dräger’s *Infinity Central Real Time Monitoring Station*, a C++ Red Hat Linux platform on Intel COTS hardware deployed world-wide. My geographically dispersed team owns design, implementation, requirements, cyber hardening, and field issue support, and roughly half of my time remains hands on in implementation.
+- Previously I was the platform team lead and scrum master for a next generation ARM/VxWorks bedside patient monitor, responsible for team coordination, requirements, and scheduling as well as the design of the monitor’s system state machine.
 
-* **Concentrations:** System Software (Compilers, Operating Systems,
-  Computer Architectures)
+### Parallel Wireless
 
-## Professional Presentations
+**Principal Software Engineer** — Nashua, NH (November 2013-May 2020)
 
-### Boston Linux User's Group
+- Over a seven year tenure I served as a technical lead across multiple groups in a fast paced startup building a unified end-to-end 2G, 3G, 4G, and 5G Open RAN solution for cellular networks. My largest effort was the architecture and implementation of a 3GPP compliant strongSwan based IKEv2/IPsec infrastructure which secured the Radio Access Network mesh and tunneled to the core on behalf of the virtualized eNodeB, along with the X.509v3 certificate based PKI used by peers throughout the Self Organizing Network. I was directly involved with deployment and debugging at customer sites.
+- As Software Defined Networking reshaped the product line I architected the migration of the Small-Cell Yocto Linux Radio Access Network platform from dedicated ARM hardware onto LXC containers running on COTS Intel, and implemented the tooling used to stage and deploy the containers providing the different LTE functional splits. I also oversaw the team’s build server infrastructure and managed the release engineers through a redesign of the GNU tool based build system.
 
-* [**_What's New with FreeBSD_**](http://www.blu.org/cgi-bin/calendar/2008-apr), April, 2008
-* [**_Recent Developments in FreeBSD_**](http://www.blu.org/cgi-bin/calendar/2004-dec), December, 2004
-* [**_An Overview of FreeBSD, NetBSD, and OpenBSD_**](http://www.blu.org/cgi-bin/calendar/1999-oct), October, 1999
+### Starent Networks (Cisco Systems)
 
-## Technial Skills
+**Principal Software Engineer** — Tewksbury, MA (July 2006-October 2013)
 
-* **Languages:** C, C++, Go, Perl, Smalltalk-80
-* **Operating Systems:** FreeBSD, NetBSD, OpenBSD, Linux, Solaris
-* **Platforms:** Atlassian, Bitbucket, GitHub
-* **Tools:** CLang (LLVM), GNU Tool Chain, BitKeeper, Git, SVN, Shell
-  Scripting, UN\*X Command Line Tool Suite
+- I was the lead software engineer for the embedded security platforms of the *ASR5000* family of Mobile Internet infrastructure systems, deployed by Tier 1 carriers across 3G CDMA, UMTS, and 4G LTE networks. My principal contribution was a highly scalable RFC 4300 series multi-card IKEv2/IPsec stack supporting gateway to gateway tunneling as well as the Femto, PDG, PDIF, TTG, and LTE mobile subscriber models, scaling to two million simultaneous calls, alongside which I coordinated the tasks of the other IKEv2/IPsec and datapath engineers.
+- I was the team lead for the datapath of a P-CSCF SRTP based secure voice over IP tunneling platform, coordinating network processor, datapath, and Linux driver development across three time zones. Closer to the hardware, I implemented the embedded Linux Cavium Nitrox and Intel Cavecreek and Coleto Creek device drivers backing the IPsec and SRTP call models, and my reference board work spanned the Intel Crystal Forest and Sandy Bridge through Haswell generations, including board bring-up and BIOS customization for the *ASR5500* data processing cards.
 
-## Patents
+### Message Secure Corporation
 
-* [**_Multi-Stage Secure Network Element Certificate Provisioning in a Distributed Mobile Access Network_ US20180205722A1**](https://patents.google.com/patent/US20180205722A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
+**Senior Software Engineer** — Lowell, MA (February 2002-July 2006)
 
-* [**_Secure Software Update in a Wireless Mesh Radio Network Using Peer-to-Peer File Sharing_ US20200162892A1**](https://patents.google.com/patent/US20200162892A1/en?q=robert&inventor=getschmann&oq=robert+getschmann)
+- I was the lead software architect and developer for a family of UN*X appliance and server based security products supporting more than five hundred installations. My primary product was a Microsoft compatible PPTP/PPP Virtual Private Network server for Solaris, for which I implemented in C the STREAMS kernel modules handling packet compression and MPPE RC4 encryption, a GDBM back end recording session accounting, and tooling for account maintenance and per-account packet filtering policy.
+- I was also the lead architect for the company’s Network Intrusion Detection System, porting an open-source NIDS to Solaris, carrying alert traffic over a 3DES encrypted tunnel for central management, and authoring the per-customer and Zero Day signature sets rolled out to over two hundred customers.
 
-## Experience
+### NaviPath
 
-**Dräeger Medicatl Systems.**
-**Senior Staff Software Engineer, Andover, MA: May, 2020 - Present**
+**Senior Software Engineer** — Andover, MA (May 2000-December 2001)
 
-_Worked on Dräger's Patient Monitoring systems..._
+- I architected, implemented, and rolled out a fleet of approximately seventy FreeBSD Intel architecture servers deployed across points of presence to support enterprise network services and network statistic collection and analysis, including Apache, BIND, MRTG, RRDTool, and UCD-SNMP. I architected the platform security policy covering IPFW packet filtering, IP bandwidth limiting, and Tripwire file consistency checking, and designed a disk-less PXEBoot and GNU CFEngine framework which automated server installation, account provisioning, and package maintenance across the fleet.
 
-**Parallel Wireless Inc.**
-**Principal Software Engineer, Nashua, NH: November, 2013 - May, 2020**
+## EDUCATION
 
-_Worked doing awesome stuff…_
+### Master of Science
 
-* Architect for design and implementation of Radio Access Network
-  Mesh IPsec 3GPP compliant IPsec infrastructure for 3G and 4G networks;
-* Architect for design and implementation X509v3 certificate based
-  Radio Access Network Mesh PKI authentication infrastructure;
-* Oversaw and managed implementation of software engineering team
-  build server infrastructure; Managed release engineers in design
-  revamp of GNU tool based build system for product development and
-  builds;
+**Computer Science** — Rochester Institute of Technology
 
-**Starent Networks / Cisco Systems**
-**Principal Software Engineer, Tewksbury, MA: July 2006 - October 2013**
+- Thesis: Enumeration of Small Triangle Free Ramsey Graphs (under Stanisław Radziszowski)
+- Concentrations: Computational Theory, Combinatorics, Neural Networks, and Object-Oriented Systems
 
-_Worked doing awesome stuff…_
+### Bachelor of Science
 
-* Lead software engineer for development of embedded security platforms for
-  3G CDMA, UMTS and 4G LTE ASR5000 family of Mobile Internet infrastructure
-  systems utilized by Tier 1 Carriers;
-* Designed and implemented a highly scalable RFC 4300 series
-  multi-card IKEv2/IPsec stack supporting gateway to gateway tunneling
-  as well as mobile subscriber models such as Femto, PDG, PDIF, TTG and
-  LTE supporting 2 million simultaneous calls; Coordinated and organized
-  engineering tasks for other engineers implementin various IKEv2/IPsec
-  and Datapath features;
-* Team lead for design and implementation of Datapath functionality
-  for a P-CSCF SRTP based secure voice IP tunneling platform; Coordinated
-  development teams in three time-zones for development of Network Processor,
-  Datapath, and Linux driver development;
-* Designed and implemented embedded Linux Cavium Nitrox and Intel
-  Cavecreek/Coleto Creek device drivers for support of IPsec and SRTP based
-  mobile call models; Performed integration with Intel's Quickassist kit;
-* Intel Haswell board bring-up and customization of Insyde BIOS utilized
-  on Cisco/Starent's ASR5500 data processing cards;
-* Designed and implemented a deep packet inspection embedded system
-  utilized for mobile subscriber URL blacklist filtering;
+**Computer Science** — Rochester Institute of Technology
 
-**Message Secure Corporation**
-**Senior Software Engineer**
-**Lowell, MA: February 2002 - July 2006**
+- Concentration: System Software (Compilers, Operating Systems, Computer Architectures)
 
-_Worked doing awesome stuff…_
+## PATENTS
 
-* Lead software architect/developer for multiple UN*X appliance/server
-  based security products for a customer base of over 500 installations;
-* Lead architect/developer for a Microsoft Virtual Private Network
-  PPTP/PPP compatible server for Sun Solaris 8; Designed and implemented
-  multiple STREAMS kernel modules for packet compression and RC4 packet
-  encryption; Integrated a back-end database for recording of VPN session
-  statistics including session IP origination duration times, destination
-  IP tracking, bytes transmitted/received; Developed a suite of command line
-  and web based tools for VPN account maintenance, automatic account lockout,
-  automatic password expiration; Integrated the VPN package with Open-Source
-  firewall suites to allow per-account configuration of packet filtering;
-* Lead architect/developer for a Network Intrusion Detection System;
-  Ported an Open-Source NIDS to Sun Solaris 8; Implemented a pre-processor
-  for customized alert signature logging; Integrated logging with a secure
-  encrypted 3DES tunnel for alert management/tracking; Formulated signature
-  sets for per-customer site configurations and Zero Day exploits;
+- [US20180205722A1: Multi-Stage Secure Network Element Certificate Provisioning in a Distributed Mobile Access Network](https://patents.google.com/patent/US20180205722A1/)
+- [US20200162892A1: Secure Software Update in a Wireless Mesh Radio Network Using Peer-to-Peer File Sharing](https://patents.google.com/patent/US20200162892A1/)
 
-**Third-Rail Wireless Systems**
-**Senior Software Engineer**
-**Nashua, NH: February 2001 - June 2001**
+## PRESENTATIONS
 
-_Worked doing awesome stuff…_
+- [What’s New with FreeBSD (Boston Linux User’s Group)](https://blu.org/)
+- [Recent Developments in FreeBSD (Boston Linux User’s Group)](https://blu.org/)
+- [An Overview of FreeBSD, NetBSD, and OpenBSD (Boston Linux User’s Group)](https://blu.org/meetings/1999/10/)
 
-* Lead developer for racoon based FreeBSD IKE/IPsec wireless router
-  appliance for replacement of the New Hampshire National Guard's
-  state-wide frame relay network;
-* Designed and implemented a system for automated packet filterin
-  and bandwidth limiting based on the FreeBSD IPFW and Dummynet
-  packages;
-* Designed and implemented a suite of Perl tools for automated FreeBSD
-  IPsec router builds, configurations, and live updates; Enhanced and
-  integrated CFEngine for hands-off system configuration management;
+## TECHNICAL SKILLS
 
-**NaviPath Incorporated**
-**Senior Software Engineer**
-**Andover, MA: May 2000 - February 2001, July 2001 - December 2001**
+- Programming Languages: C, C++, Go, Perl, Smalltalk-80, Shell Scripting, Flex/Bison, Various Assemblers
+- Platforms: Ubuntu, Red Hat Enterprise Linux, Yocto, FreeBSD, NetBSD, OpenBSD, Solaris, VxWorks; Intel COTS and ARM Architectures
+- Protocols: Ethernet, TCP/IP, IPsec/IKEv2, X.509v3 PKI, SRTP, PPTP/PPP, OSPF, SNMP, NetCONF/YANG
+- Domains: Open RAN, 2G/3G/4G/5G Mobile Infrastructure, Self Organizing Networks, Embedded Real-Time Systems, Network Security Appliances, Medical Devices
+- Suites: Atlassian (Confluence, Jira), Bitbucket, GitHub, GitLab
+- Tools: CLang (LLVM), Containers (Docker/BSD Jails/LXC), GNU Tool Chain, Autotools, BitKeeper, CMake, GIT, LaTeX, SVN, Doxygen, OpenSSL, strongSwan, CFEngine, TMux, UN*X Command Line Tool Suite, Valgrind
 
-_Worked doing awesome stuff…_
-
-* Architected, implemented and rolled out approximately 70 FreeBSD-4.x
-  Intel architecture servers to support enterprise network
-  services including Apache, BIND, MRTG, RRDTool, and UCD-SNMP;
-* Architected, implemented, and rolled out a security policy for
-  FreeBSD server platform including IPFW packet filtering, IP bandwidth
-  limiting, and MD5 system file consistency checking (Tripwire);
-* Designed and implemented disk-less PXEBoot and GNU CFEngine framework
-  for automated server installation and software package
-  maintenance/upgrades;
-* Staged an engineering group CVS project repository; Designed and
-  implemented Perl based system for automated installation and
-  tracking of project package releases/updates;
-  Sanders Incorporated (Contract Employment)
-  System Engineering Consultant, Hudson, NH: November 1999 - May 000
-* Supported Sun 4500 Solaris 7 servers including StorageWorks RAID
-  devices;
-* Configured UN*X network services including DNS, NFS, NIS, and
-  sendmail;
-* Configured, installed, and managed various GNU development tools;
-
-## Miscellaneous
-
-* **Citizenship:** United States of America;
-* **Languages:** English (Native), German (Elementary - B2/A1);
